@@ -1,0 +1,740 @@
+*{
+    background-color: rgb(191, 0, 0);
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Jockey One';
+}
+
+.header{
+    width: 100%;
+    height: 130px;
+    background: linear-gradient(rgb(255, 128, 0), black);
+    align-items: center;
+
+
+}
+
+
+
+.logo{
+    width: 130px;
+    height: 130px;
+    background-color: lime;
+}
+
+.logo img{
+    width: 130px;
+    height: 130px;
+}
+
+.search{
+    width: 280px;
+    height: 90px;
+    background: linear-gradient(rgb(255, 128, 0), black, black);
+    margin-top: -130px;
+    margin-left: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 28px;
+    margin-top: -112px;
+    border-radius: 13px;
+    border: 2px solid black;
+    color:rgb(255, 128, 0)
+}
+
+
+
+
+.login{
+    width: 180px;
+    height: 70px;
+    background: linear-gradient(rgb(255, 128, 0), black, black);
+    text-decoration: none;
+    margin-left: 1352px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 28px;
+    margin-top: -73.5px;
+    border-radius: 13px;
+    border: 2px solid black;
+    color:rgb(255, 128, 0);
+    text-decoration: none;
+    text-align: center;
+}
+
+.loginbtn{
+    width: 280px;
+    height: 70px;
+    text-decoration: none;
+    color:rgb(255, 128, 0);
+    background: linear-gradient(rgb(255, 128, 0), black, black);
+    text-align: center;
+    border-radius: 13px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.shoppingcart{
+    width: 180px;
+    height: 70px;
+       background: linear-gradient(rgb(255, 128, 0), black, black);
+    margin-left: 1167px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 28px;
+    margin-top: -83px;
+    border-radius: 13px;
+    border: 2px solid black;
+    color:rgb(255, 128, 0)
+}
+
+.shoppingcartbtn{
+    width: 280px;
+    height: 70px;
+    text-decoration: none;
+    color:rgb(255, 128, 0);
+    background: linear-gradient(rgb(255, 128, 0), black, black);
+    text-align: center;
+    border-radius: 13px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.login:hover{
+    width: 180px;
+    height: 70px;
+    background: linear-gradient(rgb(0, 0, 0), black, black);
+    text-decoration: none;
+    margin-left: 1352px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 28px;
+    margin-top: -73.5px;
+    border-radius: 13px;
+    border: 2px solid black;
+    color:rgb(106, 255, 0);
+    text-decoration: none;
+    text-align: center;
+}
+
+.loginbtn:hover{
+    width: 280px;
+    height: 70px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background: linear-gradient(rgb(0, 0, 0), rgb(255, 128, 0), rgb(255, 128, 0));
+    text-align: center;
+    border-radius: 13px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    transition: 1s;
+    
+}
+
+.shoppingcart:hover{
+    width: 180px;
+    height: 70px;
+       background: linear-gradient(rgb(0, 0, 0), black, black);
+    margin-left: 1167px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 28px;
+    margin-top: -83px;
+    border-radius: 13px;
+    border: 2px solid black;
+    color:rgb(255, 128, 0)
+}
+
+.shoppingcartbtn:hover{
+    width: 280px;
+    height: 70px;
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+    background: linear-gradient(rgb(0, 0, 0), rgb(255, 128, 0), rgb(255, 128, 0));
+    text-align: center;
+    border-radius: 13px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.homepage{
+    width: 100%;
+    height: 599px;
+    background: linear-gradient(black,blue,blue,blue,black);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+.block1{
+    background: linear-gradient(aqua,aqua,aqua,blue);
+    width: 30%;
+    height: 300px;
+    border-radius: 13px;
+    font-size: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid white;
+    transition: 1s;
+    
+}
+
+.block2{
+    background: linear-gradient(aqua,aqua,aqua,blue);
+    width: 30%;
+    height: 300px;
+    border-radius: 13px;
+    font-size: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid white;
+    transition: 1s;
+}
+
+
+.block3{
+    background: linear-gradient(aqua,aqua,aqua,blue);
+    width: 30%;
+    height: 300px;
+    border-radius: 13px;
+    font-size: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid white;
+    transition: 1s;
+}
+
+
+.kleding{
+    background-color: aqua;
+    border-radius: 13px;
+}
+.block1tekst{
+    border-radius: 13px;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-around;
+    background-color: aqua;
+    align-items: center;
+    text-align: center;
+}
+
+.suplementen{
+    background-color: aqua;
+    border-radius: 13px;
+}
+.block2tekst{
+    border-radius: 13px;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-around;
+    background-color: aqua;
+    align-items: center;
+    text-align: center;
+}
+
+.abonnementen{
+    background-color: aqua;
+    border-radius: 13px;
+}
+.block3tekst{
+    border-radius: 13px;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-around;
+    background-color: aqua;
+    align-items: center;
+    text-align: center;
+}
+
+.block1:hover{
+    width: 30%;
+    height: 300px;
+    border-radius: 13px;
+    font-size: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid rgb(0, 0, 0);
+    transition: 1s;
+}
+
+.block2:hover{
+    width: 30%;
+    height: 300px;
+    border-radius: 13px;
+    font-size: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid rgb(0, 0, 0);
+    transition: 1s;
+}
+
+.block3:hover{
+    width: 30%;
+    height: 300px;
+    border-radius: 13px;
+    font-size: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid rgb(0, 0, 0);
+    transition: 1s;
+}
+
+.input_field1{
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(rgb(0, 0, 0),blue,blue);
+    color: rgb(255, 0, 225);
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+
+.input_field{
+    width: 100%;
+    height: 100px;
+    background: blue;
+    color: rgb(255, 0, 225);
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.input_field2{
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(blue,blue,blue);
+    color: rgb(255, 0, 225);
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.wrapper{
+    width: 100%;
+    height: 0px;
+    background-color: rgb(255, 0, 0);
+    color: rgb(0, 255, 55);
+
+}
+
+.wrapper .btn input[type="submit"] {
+    border: 0px;
+    margin-top: 15px;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    background:  white;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .5s;
+    border: 3px solid;
+    margin-left: 10px;
+
+}
+
+.wrapper
+ .input_field1
+    input[type="text"],
+.wrapper textarea {
+    border: 3px solid rgb(255, 255, 255);
+    width: 200px;
+    padding: 10px;
+    background-color: aqua;
+    
+   
+}
+
+.wrapper
+ .input_field
+    input[type="text"],
+.wrapper textarea {
+    border: 3px solid rgb(255, 255, 255);
+    width: 200px;
+    padding: 10px;
+    background-color: aqua;
+    
+   
+}
+
+.wrapper
+ .input_field
+    input[type="password"],
+.wrapper textarea {
+    border: 3px solid rgb(255, 255, 255);
+    width: 200px;
+    padding: 10px;
+    background-color: aqua;
+    
+   
+}
+
+.wrapper
+ .input_field2
+    input[type="text"],
+.wrapper textarea {
+    border: 3px solid rgb(255, 255, 255);
+    width: 200px;
+    padding: 10px;
+    background-color: aqua;
+    
+   
+}
+
+
+
+
+.btn{
+    height: 149px;
+    background: linear-gradient(blue,blue,rgb(0, 0, 0));
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.btn button{
+    width: 225px;
+    height: 50px;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 3px solid;
+    color: rgb(0, 0, 0);
+    margin-top: -60px;
+    border-color: white;
+    cursor: pointer;
+}
+
+.bbtn{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 220px;
+    height: 50px;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-around;
+    border: 3px solid;
+    color: rgb(0, 0, 0);
+    border-color: white;
+    cursor: pointer;
+    text-decoration: none;
+    margin-left: 656px;
+    
+    
+}
+
+.backgourndbbtn{
+    background-color: blue;
+    height: 55px;
+
+}
+
+.topbackgroundbbtn{
+    background-color: blue;
+    height: 28px;
+}
+
+.bottombackgroundbbtn{
+    background: linear-gradient(blue,rgb(0, 0, 0),rgb(0, 0, 0),black);
+    height: 266px;
+}
+
+
+textarea:focus, input:focus {
+    color: blue;
+}
+
+input, select, textarea{
+    color: black;
+}
+
+input::placeholder {
+    color: blue
+}
+
+.inloggen{
+    
+    text-decoration: none;
+    color:rgb(255, 128, 0);
+    background: linear-gradient(rgb(255, 128, 0), rgb(0, 0, 0), rgb(0, 0, 0));
+    text-align: center;
+    border-radius: 13px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    margin-top: -54px;
+}
+
+.inloggen a{
+    height: 50px;
+    width: 130px;
+    border: 2px solid;
+    border-color: black;
+}
+
+.inloggen:hover{
+    
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+    background: linear-gradient(rgb(0, 0, 0), rgb(255, 128, 0), rgb(255, 128, 0));
+    text-align: center;
+    border-radius: 13px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+    
+}
+
+.inloggen:hover a{
+    height: 50px;
+    width: 130px;
+    border: 2px solid;
+    border-color: rgb(0, 0, 0);
+
+}
+
+.back{
+    text-decoration: none;;
+    background-color: aqua;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 130px;
+    border: 2px solid;
+    border-color: white;
+    margin-left: -1px;
+    transition: 1s;
+}
+
+.back a{
+    width: 128px;
+    text-decoration: none;;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    transition: 1s;
+}
+
+.back:hover{
+    text-decoration: none;;
+    background-color: aqua;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 130px;
+    border: 2px solid;
+    border-color: rgb(0, 0, 0);
+    margin-left: -1px;
+    transition: 1s;
+}
+
+.suc6volingelogdfooter{
+    height: 599px;
+    width: 100%;
+    background: linear-gradient(black,blue,blue,blue,black);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.suc6volingelogd{
+    height: 150px;
+    width: 300px;
+    background: linear-gradient(aqua,aqua,aqua,blue);
+    text-align: center;
+    border: 3px solid; 
+    border-color: white;
+}
+
+.suc6volingelogd:hover{
+    height: 150px;
+    width: 300px;
+    background: linear-gradient(aqua,aqua,aqua,blue);
+    text-align: center;
+    border: 3px solid; 
+    border-color: white;
+}
+
+
+.ingelogd{
+    width: 0px;
+    height: 50px;
+    text-align: center;
+    margin-left: 100px;
+}
+
+.logintext{
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    
+    background-color: aqua;
+    
+}
+
+.logintext h3{
+    background-color:aqua;
+}
+
+.bbtnn{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 220px;
+    height: 50px;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-around;
+    border: 3px solid;
+    color: rgb(0, 0, 0);
+    border-color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.ingelogd2{
+    width: 0px;
+    height: 50px;
+    text-align: center;
+    margin-left: 70px;
+}
+
+.kledingkopen{
+    
+    text-decoration: none;
+    margin-top: 93px;
+    background-color: transparent;
+    
+}
+
+.kledingkopenbtn{
+    height: 0px;
+    width: 0px;
+    text-decoration: none;
+    background-color: transparent;
+    color: black;
+    border: 3px solid;
+    border-color: white;
+    border-radius: 13px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    transition: 1s;
+}
+
+.kledingkopenbtn:hover{
+    height: 0px;
+    width: 0px;
+    text-decoration: none;
+    background-color: transparent;
+    color: black;
+    border: 3px solid;
+    border-color: black;
+    border-radius: 13px;
+    transition: 1s;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.suplementenkopen{
+        text-decoration: none;
+        margin-top: 26px;
+        background-color: transparent;
+    }
+
+.suplementenkopenbtn{
+    height: 0px;
+    width: 0px;
+    text-decoration: none;
+    background-color: transparent;
+    color: black;
+    border: 3px solid;
+    border-color: white;
+    border-radius: 13px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    transition: 1s;
+}
+
+.suplementenkopenbtn:hover{
+    height: 0px;
+    width: 0px;
+    text-decoration: none;
+    background-color: transparent;
+    color: black;
+    border: 3px solid;
+    border-color: black;
+    border-radius: 13px;
+    transition: 1s;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.locatiekopen{
+    text-decoration: none;
+    margin-top: 60px;
+    background-color: transparent;
+}
+
+.locatiekopenbtn{
+height: 0px;
+width: 0px;
+text-decoration: none;
+background-color: transparent;
+color: black;
+border: 3px solid;
+border-color: white;
+border-radius: 13px;
+border-bottom-left-radius: 0px;
+border-bottom-right-radius: 0px;
+transition: 1s;
+}
+
+.locatiekopenbtn:hover{
+height: 0px;
+width: 0px;
+text-decoration: none;
+background-color: transparent;
+color: black;
+border: 3px solid;
+border-color: black;
+border-radius: 13px;
+transition: 1s;
+border-bottom-left-radius: 0px;
+border-bottom-right-radius: 0px;
+}
+
+.kledingheader{
+    height: 100px;
+    width: 100px;
+    background-color: lime;
+    margin-left: 1000px;
+}
